@@ -1,6 +1,35 @@
 # SQL-Query-Generator
 Building an SQL Query Generator using React, Node.js and OpenAI API
 
+## Pre-requisites
+- Install **node.js** in windows. Once, done check the availability
+  - node -v, npm --version
+- Update node package manager:
+  - npm install npm --global
+- Open the projects folder and open cmd here
+  - Write this command : npx create-react-app typescript-sql-generator --template typescript
+- Thus, the creation of typescript-sql-generator _**REACT APP**_ is ready!!!
+
+## To run this application
+1. Download this ZIP file.
+2. Open the project in VSCode
+3. Now, open the terminal in it and install these packages: 
+```
+ npm i cors express ts-node dotenv openai --save-dev @types/cors
+```
+4. Create .env file and paste the API_KEY in it
+5. Run the ports of start:frontend - 3000 and start:backend - 8000
+6. Open two terminals and run these commands
+
+For Frontend:
+  ```
+  npm run start:frontend
+  ```
+For Backend:
+  ```
+  npm run start:backend
+  ```
+
 ## Website Overview
 #### Home Page
 ![image](https://github.com/Kowshik-407/SQL-Query-Generator/assets/66817358/7c047a7c-8732-421b-bdb2-98ff8f944a23)
